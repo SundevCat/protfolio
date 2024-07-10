@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Home from './Components/Home/Home';
+import { Card, Col, Container, Image, Row } from 'react-bootstrap'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='w-100 h-100 bg-dark d-flex flex-row'>
+      <Container fluid="lg" >
+        <Row>
+          <Col md={2}>
+          </Col>
+          <Col md={8} className='mt-5 '>
+            <Card className='bg-secondary bg-gradient rounded-5'>
+              <Home />
+            </Card>
+          </Col>
+          <Col md={2}>
+          </Col>
+        </Row>
+      </Container >
+    </div >
   );
 }
 
