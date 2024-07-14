@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { Col, ProgressBar, Row } from 'react-bootstrap';
+import FrontEnd from './FrontEnd/FrontEnd';
+import BackEnd from './BackEnd/BackEnd';
 
 function Project() {
     const [showFrontEnd, setShowFrontEnd] = useState(true);
@@ -17,12 +19,11 @@ function Project() {
                     </div>
                     {showFrontEnd ?
                         <div className=' text-light'>
-                            true
-
+                            <FrontEnd />
                         </div>
                         :
                         <div className=' text-light'>
-                            false
+                            <BackEnd />
                         </div>
                     }
                 </Col>

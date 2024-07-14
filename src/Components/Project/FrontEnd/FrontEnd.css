@@ -1,0 +1,17 @@
+.animation {
+    animation: salid-left 0.3s;
+}
+
+.box-shadow{
+    box-shadow:0 0rem 1rem rgb(23, 22, 22) inset !important;
+}
+
+.card-item {
+    height: 140px;
+}
+
+@keyframes salid-left {
+    from{ transform: translateX(150px); opacity: 0;}
+    to{ transform: translateX(0px); opacity: 1;}
+}
+
