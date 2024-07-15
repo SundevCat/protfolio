@@ -25,8 +25,8 @@ function BackEnd() {
     }]
     return (
         <>
-            <Row className=' animation mt-5'>
-                <Col xs={4} className=' d-flex flex-column gap-2'>
+            <Row className=' animation my-5 h-300px'>
+                <Col xs={4} className=' d-flex flex-column gap-2 m-auto'>
                     <div onClick={() => setSelece(0)} style={{ cursor: 'pointer' }}>
                         <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={pif} />
                         <div className=' text-center small'>PIF API</div>

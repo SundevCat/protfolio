@@ -2,6 +2,15 @@
     animation: salid-left 0.3s;
 }
 
+.hover:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.h-300px{
+    height: 350px;
+}
+
 .box-shadow{
     box-shadow:0 0rem 1rem rgb(23, 22, 22) inset !important;
 }

@@ -1,18 +1,60 @@
 import React from 'react'
-import { Col, ProgressBar, Row } from 'react-bootstrap'
+import html from '../../assets/html.webp'
+import css from '../../assets/css.png'
+import js from '../../assets/js.png'
+import ts from '../../assets/ts.png'
+import c from '../../assets/c.png'
+import { Image } from 'react-bootstrap'
 
 function Skills() {
     return (
-        <>
-            <Row className='mt-5'>
-                <Col></Col>
-                <Col xs={9}>
-                    <div className=' text-end text-light py-2'>Skills</div>
-                    <ProgressBar variant='Primary' now={70} className=' bg-warning' style={{ height: '5px' }} />
-                </Col>
-                <Col></Col>
-            </Row>
-        </>
+        <div className=' d-flex flex-column text-light'>
+            <div className=' d-flex flex-column py-2'>
+                <div>
+                    Language
+                </div>
+                <div className=' py-2'>
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={css} />
+                    <Image className='w-8 mx-3' src={js} />
+                    <Image className='w-8 mx-3' src={ts} />
+                    <Image className='w-8 mx-3' src={c} />
+                </div>
+            </div>
+            <div className=' d-flex flex-column py-2'>
+                <div>
+                    Full stack Framework
+                </div>
+                <div className=' py-2'>
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={html} />
+                </div>
+            </div>
+            <div className=' d-flex flex-column py-2'>
+                <div>
+                    CSS Framework
+                </div>
+                <div className=' py-2'>
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={html} />
+                </div>
+            </div>
+            <div className=' d-flex flex-column py-2'>
+                <div>
+                    Database
+                </div>
+                <div className=' py-2'>
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={html} />
+                    <Image className='w-8 mx-3' src={html} />
+                </div>
+            </div>
+        </div>
     )
 }
 

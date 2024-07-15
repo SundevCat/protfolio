@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './FrontEnd.css'
 import { Col, Image, Row } from 'react-bootstrap'
-import pif from '../../../assets/Product Information.png'
-import pos from '../../../assets/6ecb91e73eab30f51b0b29a880338147.png'
+import pif from '../../../assets/pif.png'
+import pos from '../../../assets/pos.png'
 import fb from '../../../assets/facebook-logo-facebook-icon-transparent-free-png.webp'
 import github from '../../../assets/25231.png'
 import { Link } from 'react-router-dom'
@@ -16,36 +16,36 @@ function FrontEnd() {
         url: 'https://github.com/SundevCat/pro_pif'
     }, {
         name: 'Facebook copy',
-        des: 'ReactJS Framework and tailwind.',
+        des: 'React Framework and tailwind.',
         img: fb,
         url: 'https://github.com/SundevCat/react-facebook'
     }, {
         name: 'POS System',
-        des: 'AngularJS Framework and Bootstrap 5.',
+        des: 'Angular Framework and Bootstrap5.',
         img: pos,
         url: 'https://github.com/SundevCat/MyProjectWeb'
     }]
     return (
         <>
-            <Row className=' animation mt-5'>
-                <Col xs={4} className=' d-flex flex-column gap-2'>
+            <Row className=' animation my-5 h-300px'>
+                <Col xs={4} className=' d-flex flex-column gap-2 m-auto'>
                     <div onClick={() => setSelece(0)} style={{cursor:'pointer'}}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={pif} />
+                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain rounded-3'  src={pif} />
                         <div className=' text-center small'>Website PIF </div>
                     </div>
                     <div onClick={() => setSelece(1)} style={{cursor:'pointer'}}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={fb} />
+                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain rounded-3'  src={fb} />
                         <div className=' text-center small'> Facebook copy </div>
                     </div>
                     <div onClick={() => setSelece(2)} style={{cursor:'pointer'}}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={pos} />
+                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain rounded-3'   src={pos} />
                         <div className=' text-center p-1 small'> POS System </div>
                     </div>
 
                 </Col>
                 <Col xs={6} className='m-auto  shadow rounded-5'>
                     <div className=' py-3 py-md-4'>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={Details[select].img} />
+                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain hover' rounded src={Details[select].img} />
                         <div className=' text-center pt-1 fs-5 fw-bold'>{Details[select].name} </div>
                         <div className=' text-center w-75 m-auto small'>{Details[select].des} </div>
                         <div className=' m-auto w-25 h-25 my-2'>

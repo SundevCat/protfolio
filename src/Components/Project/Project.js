@@ -2,30 +2,28 @@ import React, { useState } from 'react'
 import { Col, ProgressBar, Row } from 'react-bootstrap';
 import FrontEnd from './FrontEnd/FrontEnd';
 import BackEnd from './BackEnd/BackEnd';
+import Ecommerce from './Ecommerce/Ecommerce';
 
 function Project() {
-    const [showFrontEnd, setShowFrontEnd] = useState(true);
+    const [showFrontEnd, setShowFrontEnd] = useState(30);
     return (
         <>
             <Row className='mt-5'>
                 <Col></Col>
                 <Col xs={9}>
                     <div className=' text-light py-2'>Project</div>
-                    <ProgressBar variant='Primary' now={showFrontEnd ? 70 : 30} className=' bg-warning' style={{ height: '5px' }} />
+                    <ProgressBar variant='Primary' now={showFrontEnd} className=' bg-warning' style={{ height: '5px' }} />
 
-                    <div className='d-flex justify-content-between pt-4 px-4 px-md-5 '>
-                        <button onClick={() => setShowFrontEnd(true)} className={showFrontEnd ? 'btn btn-primary shadow rounded-5' : 'btn btn-dark shadow rounded-5'}>Front-End</button>
-                        <button onClick={() => setShowFrontEnd(false)} className={showFrontEnd ? 'btn btn-dark   shadow rounded-5' : 'btn btn-primary shadow rounded-5'}>Back-End</button>
+                    <div className='d-flex justify-content-between pt-4 px-4 px-md-5 gap-2 '>
+                        <button onClick={() => setShowFrontEnd(30)} className={showFrontEnd === 30 ? 'btn btn-primary shadow rounded-5' : 'btn btn-dark shadow rounded-5'}>Front-End</button>
+                        <button onClick={() => setShowFrontEnd(50)} className={showFrontEnd === 50 ? 'btn btn-primary shadow rounded-5' : 'btn btn-dark shadow rounded-5'}>Ecommerce</button>
+                        <button onClick={() => setShowFrontEnd(70)} className={showFrontEnd === 70 ? 'btn btn-primary shadow rounded-5' : 'btn btn-dark shadow rounded-5'}>Back-End</button>
                     </div>
-                    {showFrontEnd ?
-                        <div className=' text-light'>
-                            <FrontEnd />
-                        </div>
-                        :
-                        <div className=' text-light'>
-                            <BackEnd />
-                        </div>
-                    }
+
+                    {showFrontEnd === 30 && <div className=' text-light'>  <FrontEnd />   </div>}
+                    {showFrontEnd === 50 && <div className=' text-light'>  <Ecommerce />  </div>}
+                    {showFrontEnd === 70 && <div className=' text-light'>  <BackEnd />    </div>}
+
                 </Col>
                 <Col></Col>
             </Row>
