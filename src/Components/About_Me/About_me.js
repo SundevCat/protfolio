@@ -11,7 +11,9 @@ function About_me() {
                 </Col>
                 <Col sm={4} className='text-light px-5 px-sm-0'>
                     <div className=' fs-5 fw-bold text-center text-sm-start'> About Me</div>
-                    <div className='mt-2 text-center text-sm-start'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, labore impedit quis repellendus odit magnam consectetur similique illum! Velit, nobis.</div>
+                    <div className='mt-2 text-center text-sm-start'>
+                        I enjoy challenges and am always open to new experiences. I work well with others and am ready to grow with the team.
+                    </div>
                 </Col>
             </Row>
         </div>

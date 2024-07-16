@@ -16,8 +16,8 @@ function Ecommerce() {
             <Row className=' animation my-5 h-300px'>
                 <Col xs={4} className=' d-flex flex-column gap-2'>
                     <div onClick={() => setSelece(0)} style={{ cursor: 'pointer' }}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain rounded-3' src={Details[0].img} />
-                        <div className=' text-center small'>{Details[0].name} </div>
+                        <Image className=' d-block m-auto w-75 h-75  rounded-3' src={Details[0].img} />
+                        <div className=' text-center small py-2'>{Details[0].name} </div>
                     </div>
                 </Col>
                 <Col xs={6} className='m-auto  shadow rounded-5'>

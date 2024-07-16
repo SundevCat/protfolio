@@ -5,10 +5,10 @@ function Home(prop) {
     return (
         <>
             <div className=' d-none d-sm-flex justify-content-between py-4 p-lg-5 mx-sm-5'>
-                <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Home')}>Contact</button>
-                <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Resume')}>Contact</button>
+                <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Home')}>Home</button>
+                <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Resume')}>Resume</button>
                 <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('About')}>About</button>
-                <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Contact')}>Certificate</button>
+                <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Contact')}>Contact</button>
                 <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Project')}>Project</button>
             </div>
             <div className=' d-sm-none d-flex p-3 p-sm-5 justify-content-end '>
@@ -20,10 +20,10 @@ function Home(prop) {
 
                     </DropdownToggle>
                     <DropdownMenu className='bg-dark ' align={{ xl: 'start' }} style={{ cursor: 'pointer', userSelect: 'none' }}>
-                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Home')}>Contact </DropdownItemText>
-                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Resume')}>Contact </DropdownItemText>
+                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Home')}>Home </DropdownItemText>
+                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Resume')}>Resume </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('About')}>About </DropdownItemText>
-                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Contact')}>Certificate </DropdownItemText>
+                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Contact')}>Contact </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('Project')}>Project </DropdownItemText>
                     </DropdownMenu>
                 </Dropdown>

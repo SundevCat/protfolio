@@ -1,4 +1,4 @@
-import { ImportContacts, Laptop, MenuBook } from '@mui/icons-material'
+import { Laptop, MenuBook } from '@mui/icons-material'
 import { Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineOppositeContent, timelineOppositeContentClasses, TimelineSeparator } from '@mui/lab'
 import { Typography } from '@mui/material'
 import React from 'react'
@@ -32,12 +32,13 @@ function Resume() {
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
-                        <Typography >
+                        <Typography component={'span'}>
                             Lorem ipsum dolor sit amet.
                         </Typography>
-                        <Typography >
+                        <Typography component={'span'}>
                             <div className=' small text-warning-emphasis'>lorem</div>
-                            <div className=' small'> lorem</div>
+                            <div className=' small'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet aspernatur inventore iusto vero neque pariatur id minus
+                                dolorum. Quo sequi vero tenetur sapiente blanditiis ullam nesciunt, error nemo dolores molestias.</div>
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -47,10 +48,10 @@ function Resume() {
                         <TimelineDot color="warning" />
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
-                        <Typography >
+                        <Typography component={'span'}>
                             Lorem ipsum dolor sit amet.
                         </Typography>
-                        <Typography >
+                        <Typography component={'span'}>
                             <div className=' small text-warning-emphasis'>lorem</div>
                             <div className=' small'> lorem</div>
                         </Typography>
@@ -85,10 +86,10 @@ function Resume() {
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
-                        <Typography >
+                        <Typography component={'span'}>
                             Lorem ipsum dolor sit amet.
                         </Typography>
-                        <Typography >
+                        <Typography component={'span'}>
                             <div className=' small text-warning-emphasis'>lorem</div>
                             <div className=' small'> lorem</div>
                         </Typography>
@@ -100,10 +101,10 @@ function Resume() {
                         <TimelineDot color="warning" />
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
-                        <Typography >
+                        <Typography component={'span'}>
                             Lorem ipsum dolor sit amet.
                         </Typography>
-                        <Typography >
+                        <Typography component={'span'}>
                             <div className=' small text-warning-emphasis'>lorem</div>
                             <div className=' small'> lorem</div>
                         </Typography>

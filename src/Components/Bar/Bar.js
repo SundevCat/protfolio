@@ -3,7 +3,7 @@ import { Col, ProgressBar, Row } from 'react-bootstrap'
 
 function Bar(prop) {
     return (
-        <Row className='mt-5'>
+        <Row >
             <Col></Col>
             <Col xs={9}>
                 <div className=' text-end text-light py-2'>{prop.header}</div>

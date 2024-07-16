@@ -13,12 +13,12 @@ function BackEnd() {
         img: pif,
         url: 'https://github.com/SundevCat/pro_pif'
     }, {
-        name: 'Facebook copy',
+        name: 'Facebook API',
         des: 'NodeJS and ExpressJS connect to MongoDB Database.',
         img: fb,
         url: 'https://github.com/SundevCat/NodeAPI'
     }, {
-        name: 'POS System',
+        name: 'POS System API' ,
         des: 'ASP.NET Core connect to MongoDB Database.',
         img: pos,
         url: 'https://github.com/SundevCat/MyProjectAPI'
@@ -28,16 +28,16 @@ function BackEnd() {
             <Row className=' animation my-5 h-300px'>
                 <Col xs={4} className=' d-flex flex-column gap-2 m-auto'>
                     <div onClick={() => setSelece(0)} style={{ cursor: 'pointer' }}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={pif} />
-                        <div className=' text-center small'>PIF API</div>
+                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={Details[0].img} />
+                        <div className=' text-center small'>{Details[0].name}</div>
                     </div>
                     <div onClick={() => setSelece(1)} style={{ cursor: 'pointer' }}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={fb} />
-                        <div className=' text-center small'> Facebook API </div>
+                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={Details[1].img} />
+                        <div className=' text-center small'> {Details[1].name} </div>
                     </div>
                     <div onClick={() => setSelece(2)} style={{ cursor: 'pointer' }}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={pos} />
-                        <div className=' text-center p-1 small'> POS API </div>
+                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={Details[2].img} />
+                        <div className=' text-center p-1 small'> {Details[2].name} </div>
                     </div>
 
                 </Col>
