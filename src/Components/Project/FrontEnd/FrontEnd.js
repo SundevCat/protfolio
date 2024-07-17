@@ -30,15 +30,15 @@ function FrontEnd() {
             <Row className=' animation my-5 h-300px'>
                 <Col xs={4} className=' d-flex flex-column gap-2 m-auto'>
                     <div onClick={() => setSelece(0)} style={{cursor:'pointer'}}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain rounded-3'  src={Details[0].img} />
+                        <Image className=' d-block m-auto w-100 h-100 object-fit-cover rounded-3'  src={Details[0].img} />
                         <div className=' text-center small py-2'>{Details[0].name} </div>
                     </div>
                     <div onClick={() => setSelece(1)} style={{cursor:'pointer'}}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain rounded-3'  src={Details[1].img} />
+                        <Image className=' d-block m-auto w-100 h-100 object-fit-cover rounded-3'  src={Details[1].img} />
                         <div className=' text-center small py-2'> {Details[1].name} </div>
                     </div>
                     <div onClick={() => setSelece(2)} style={{cursor:'pointer'}}>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain rounded-3'   src={Details[2].img} />
+                        <Image className=' d-block m-auto w-100 h-100 object-fit-cover rounded-3'   src={Details[2].img} />
                         <div className=' text-center py-2 small'> {Details[2].name}  </div>
                     </div>
 

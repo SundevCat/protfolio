@@ -14,7 +14,7 @@ function Project() {
                     <div className=' text-light py-2'>Project</div>
                     <ProgressBar variant='Primary' now={showFrontEnd} className=' bg-warning' style={{ height: '5px' }} />
 
-                    <div className='d-flex justify-content-between pt-4 px-4 px-md-5 gap-2 '>
+                    <div className='d-flex justify-content-between pt-4  px-lg-5 gap-2 '>
                         <button onClick={() => setShowFrontEnd(30)} className={showFrontEnd === 30 ? 'btn btn-primary shadow rounded-5' : 'btn btn-dark shadow rounded-5'}>Front-End</button>
                         <button onClick={() => setShowFrontEnd(50)} className={showFrontEnd === 50 ? 'btn btn-primary shadow rounded-5' : 'btn btn-dark shadow rounded-5'}>Ecommerce</button>
                         <button onClick={() => setShowFrontEnd(70)} className={showFrontEnd === 70 ? 'btn btn-primary shadow rounded-5' : 'btn btn-dark shadow rounded-5'}>Back-End</button>

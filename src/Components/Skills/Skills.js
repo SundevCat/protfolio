@@ -26,27 +26,27 @@ function Skills() {
                     Language
                 </div>
                 <div className=' py-2 row row-cols-auto justify-content-center justify-content-sm-start'>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8  mx-auto object-fit-contain' src={html} />
                         <div className=' text-center small'> HTML </div>
                     </div>
-                    <div className='col  d-flex flex-column'>
+                    <div className='col  d-flex flex-column py-2'>
                         <Image className='w-8 h-8  mx-auto  object-fit-contain ' src={css} />
                         <div className=' text-center small'> CSS </div>
                     </div>
-                    <div className='col  d-flex flex-column'>
+                    <div className='col  d-flex flex-column py-2'>
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={js} />
                         <div className=' text-center small'> JavsScript </div>
                     </div>
-                    <div className='col  d-flex flex-column'>
+                    <div className='col  d-flex flex-column py-2'>
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={c} />
                         <div className=' text-center small'> C# </div>
                     </div>
-                    <div className='col  d-flex flex-column'>
+                    <div className='col  d-flex flex-column py-2'>
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={ts} />
                         <div className=' text-center small'> TypeScript </div>
                     </div>
-                    <div className='col  d-flex flex-column'>
+                    <div className='col  d-flex flex-column py-2'>
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={sql} />
                         <div className=' text-center small'> SQL </div>
                     </div>
@@ -57,27 +57,27 @@ function Skills() {
                     Full stack Framework
                 </div>
                 <div className=' py-2 row row-cols-auto justify-content-center justify-content-sm-start'>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8  mx-auto object-fit-contain' src={react} />
                         <div className=' text-center small'> React </div>
                     </div>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8  mx-auto object-fit-contain' src={angular} />
                         <div className=' text-center small'> Angular </div>
                     </div>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8  mx-auto object-fit-contain' src={laravel} />
                         <div className=' text-center small'> Laravel </div>
                     </div>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={next} />
                         <div className=' text-center small'> Next.js </div>
                     </div>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={express} />
                         <div className=' text-center small'> Express </div>
                     </div>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={dotnet} />
                         <div className=' text-center small'> .NET CORE </div>
                     </div>
@@ -89,11 +89,11 @@ function Skills() {
                     CSS Framework
                 </div>
                 <div className=' py-2 row row-cols-auto justify-content-start'>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-3 object-fit-contain' src={boots} />
                         <div className=' text-center small'> Bootstrap 5 </div>
                     </div>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-3  object-fit-contain' src={tail} />
                         <div className=' text-center small'> Taillwind </div>
                     </div>
@@ -104,15 +104,15 @@ function Skills() {
                     Database
                 </div>
                 <div className=' py-2 row row-cols-auto justify-content-start'>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-3 object-fit-contain' src={mongo} />
                         <div className=' text-center small'> MongoDB </div>
                     </div>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-3 object-fit-contain' src={mysql} />
                         <div className=' text-center small'> MySQL </div>
                     </div>
-                    <div className='col d-flex flex-column' >
+                    <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-3 object-fit-contain' src={postg} />
                         <div className=' text-center small'> PostgreSQL </div>
                     </div>

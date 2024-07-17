@@ -28,9 +28,9 @@ function Profile(prop) {
                     <div className=' text-center text-light mt-2'>
                         Never stop learning. Keep going to goal. Always committed to developing and following new technology.
                     </div>
-                    <div className='d-flex justify-content-between pt-4 px-4 px-md-5 '>
-                        <button onClick={() => prop.setToggle('About')} className='btn btn-dark shadow rounded-5'>Learn More</button>
-                        <button onClick={() => prop.setToggle('Contact')} className='btn btn-dark shadow rounded-5'>Contact me</button>
+                    <div className='d-flex justify-content-between pt-4  px-lg-5 '>
+                        <button onClick={() => prop.setToggle('About')} className='btn btn-dark shadow rounded-5 mx-2 mx-md-0'>Learn More</button>
+                        <button onClick={() => prop.setToggle('Contact')} className='btn btn-dark shadow rounded-5 mx-2  mx-md-0'>Contact me</button>
                     </div>
                 </Col>
                 <Col ></Col>

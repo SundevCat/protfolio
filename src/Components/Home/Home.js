@@ -13,7 +13,7 @@ function Home(prop) {
             </div>
             <div className=' d-sm-none d-flex p-3 p-sm-5 justify-content-end '>
                 <Dropdown >
-                    <DropdownToggle id="dropdown-custom-components" as={React.forwardRef((({ onClick }, ref) => <div onClick={(e) => onClick(e)} className=' text-light pointer-event' style={{ cursor: 'pointer', userSelect: 'none' }}> <span className="material-symbols-outlined">
+                    <DropdownToggle id="dropdown-custom-components" as={React.forwardRef((({ onClick }, ref) => <div onClick={(e) => onClick(e)} className=' text-light pointer-event' style={{ cursor: 'pointer', userSelect: 'none' }}> <span className="material-symbols-outlined fs-1">
                         menu
                     </span></div>))} className=' bg-danger'>
 

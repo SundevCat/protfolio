@@ -16,13 +16,13 @@ function Ecommerce() {
             <Row className=' animation my-5 h-300px'>
                 <Col xs={4} className=' d-flex flex-column gap-2'>
                     <div onClick={() => setSelece(0)} style={{ cursor: 'pointer' }}>
-                        <Image className=' d-block m-auto w-75 h-75  rounded-3' src={Details[0].img} />
+                        <Image className=' d-block m-auto w-100 h-100 object-fit-cover  rounded-3' src={Details[0].img} />
                         <div className=' text-center small py-2'>{Details[0].name} </div>
                     </div>
                 </Col>
                 <Col xs={6} className='m-auto  shadow rounded-5'>
                     <div className=' py-3 py-md-4'>
-                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain hover' rounded src={Details[select].img} />
+                        <Image className=' d-block m-auto w-75 h-75 object-fit-cover hover' rounded src={Details[select].img} />
                         <div className=' text-center pt-1 fs-5 fw-bold'>{Details[select].name} </div>
                         <div className=' text-center w-75 m-auto small'>{Details[select].des} </div>
                         <div className=' m-auto w-25 h-25 my-2'>

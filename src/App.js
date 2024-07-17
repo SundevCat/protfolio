@@ -38,12 +38,12 @@ function App() {
                 <Bar header="Skills">
                   <Skills />
                 </Bar>
-                <Bar header="Resume">
-                  <Resume />
-                </Bar>
-                <Bar header="Contact">
-                  <Contact />
-                </Bar>
+                <Bar header="Resume" />
+
+                <Resume />
+                <Bar header="Contact" />
+                <Contact />
+
                 <Bar>
                   <div className=' text-light text-center pb-5 fs-1 fw-light'>
                     "Thanks for Scrolling"
