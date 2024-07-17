@@ -1,5 +1,5 @@
 import React from 'react'
-import { Dropdown, DropdownButton, DropdownItemText, DropdownMenu, DropdownToggle } from 'react-bootstrap'
+import { Dropdown, DropdownItemText, DropdownMenu, DropdownToggle } from 'react-bootstrap'
 
 function Home(prop) {
     return (
@@ -12,7 +12,6 @@ function Home(prop) {
                 <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Project')}>Project</button>
             </div>
             <div className=' d-sm-none d-flex p-3 p-sm-5 justify-content-end '>
-
                 <Dropdown >
                     <DropdownToggle id="dropdown-custom-components" as={React.forwardRef((({ onClick }, ref) => <div onClick={(e) => onClick(e)} className=' text-light pointer-event' style={{ cursor: 'pointer', userSelect: 'none' }}> <span className="material-symbols-outlined">
                         menu

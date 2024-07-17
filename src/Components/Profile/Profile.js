@@ -26,7 +26,7 @@ function Profile(prop) {
                 <Col  ></Col>
                 <Col xs={7} >
                     <div className=' text-center text-light mt-2'>
-                        Never stop learning. Always strive to develop and keep up with the latest technology.
+                        Never stop learning. Keep going to goal. Always committed to developing and following new technology.
                     </div>
                     <div className='d-flex justify-content-between pt-4 px-4 px-md-5 '>
                         <button onClick={() => prop.setToggle('About')} className='btn btn-dark shadow rounded-5'>Learn More</button>

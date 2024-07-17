@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './Components/Home/Home';
-import { Card, Col, Container, ProgressBar, Row } from 'react-bootstrap'
+import { Card, Col, Container, Row } from 'react-bootstrap'
 import Profile from './Components/Profile/Profile';
 import About_me from './Components/About_Me/About_me';
 import Project from './Components/Project/Project';
@@ -35,13 +35,13 @@ function App() {
                 <Profile setToggle={setStatus} />
                 <About_me />
                 <Project />
-                <Bar header="lorem">
+                <Bar header="Skills">
                   <Skills />
                 </Bar>
-                <Bar header="lorem">
+                <Bar header="Resume">
                   <Resume />
                 </Bar>
-                <Bar header="lorem">
+                <Bar header="Contact">
                   <Contact />
                 </Bar>
                 <Bar>

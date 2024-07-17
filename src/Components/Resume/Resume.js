@@ -21,7 +21,7 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: 'auto 0' }} className=' text-light'>
                         <Typography variant='h6'>
-                            ABCDEF
+                            Education
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -33,12 +33,11 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
                         <Typography component={'span'}>
-                            Lorem ipsum dolor sit amet.
+                            Roi Et Tachnical Collage
                         </Typography>
                         <Typography component={'span'}>
-                            <div className=' small text-warning-emphasis'>lorem</div>
-                            <div className=' small'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet aspernatur inventore iusto vero neque pariatur id minus
-                                dolorum. Quo sequi vero tenetur sapiente blanditiis ullam nesciunt, error nemo dolores molestias.</div>
+                            <div className=' small text-warning-emphasis'>2016-2017</div>
+                            <div className=' small'> Certificate of Technical Vocation, Technical Computer</div>
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -49,11 +48,11 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
                         <Typography component={'span'}>
-                            Lorem ipsum dolor sit amet.
+                            Rajamangala University of Technology Isan Khonkean Campus
                         </Typography>
                         <Typography component={'span'}>
-                            <div className=' small text-warning-emphasis'>lorem</div>
-                            <div className=' small'> lorem</div>
+                            <div className=' small text-warning-emphasis'>2018-2023</div>
+                            <div className=' small'> Bechelor's Degree, Computer Engunerring</div>
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -75,7 +74,7 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: 'auto 0' }} className=' text-light'>
                         <Typography variant='h6'>
-                            ABCDEF
+                            Experience
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -87,10 +86,10 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
                         <Typography component={'span'}>
-                            Lorem ipsum dolor sit amet.
+                            Full Stack Intern | MEE HAI GROUP CO., LTD
                         </Typography>
                         <Typography component={'span'}>
-                            <div className=' small text-warning-emphasis'>lorem</div>
+                            <div className=' small text-warning-emphasis'>April 2021 - Auguse 2021</div>
                             <div className=' small'> lorem</div>
                         </Typography>
                     </TimelineContent>
@@ -102,10 +101,10 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
                         <Typography component={'span'}>
-                            Lorem ipsum dolor sit amet.
+                            Web Developer | Plan Creations Co. Ltd
                         </Typography>
                         <Typography component={'span'}>
-                            <div className=' small text-warning-emphasis'>lorem</div>
+                            <div className=' small text-warning-emphasis'>June 2023 - Current</div>
                             <div className=' small'> lorem</div>
                         </Typography>
                     </TimelineContent>
