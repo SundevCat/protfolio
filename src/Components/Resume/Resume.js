@@ -90,7 +90,22 @@ function Resume() {
                         </Typography>
                         <Typography component={'span'}>
                             <div className=' small text-warning-emphasis'>April 2021 - Auguse 2021</div>
-                            <div className=' small'> lorem</div>
+                            <div className=' small'>
+                                <ul>
+                                    <li>
+                                        Use Figma for website design UX | UI.
+                                    </li>
+                                    <li>
+                                        use Angular and Boostrap5 for Front end.
+                                    </li>
+                                    <li>
+                                        use C# .NET for back end.
+                                    </li>
+                                    <li>
+                                        use MongoDB for database.
+                                    </li>
+                                </ul>
+                            </div>
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -105,7 +120,37 @@ function Resume() {
                         </Typography>
                         <Typography component={'span'}>
                             <div className=' small text-warning-emphasis'>June 2023 - Current</div>
-                            <div className=' small'> lorem</div>
+                            <div className=' small'>
+                                <ul>
+                                    <li>
+                                        Use Shopify for web ecommerce.
+                                    </li>
+                                    <li>
+                                        Design website UX | UI and landing page for Ecommerce.
+                                    </li>
+                                    <li>
+                                        Use Laravel and React to create website.
+                                    </li>
+                                    <li>
+                                        Use Boostrap5 for website.
+                                    </li>
+                                    <li>
+                                        Use NodeJS for backend
+                                    </li>
+                                    <li>
+                                        Query Oracle database to manage stock and website.
+                                    </li>
+                                    <li>
+                                        Manage Product Info.
+                                    </li>
+                                    <li>
+                                        Monitor Live Streaming.
+                                    </li>
+                                    <li>
+                                        Manage CRM system.
+                                    </li>
+                                </ul>
+                            </div>
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>

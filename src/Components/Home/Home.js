@@ -15,11 +15,10 @@ function Home(prop) {
                 <Dropdown >
                     <DropdownToggle id="dropdown-custom-components" as={React.forwardRef((({ onClick }, ref) => <div onClick={(e) => onClick(e)} className=' text-light pointer-event' style={{ cursor: 'pointer', userSelect: 'none' }}> <span className="material-symbols-outlined fs-1">
                         menu
-                    </span></div>))} className=' bg-danger'>
-
+                    </span></div>))}>
                     </DropdownToggle>
-                    <DropdownMenu className='bg-dark ' align={{ xl: 'start' }} style={{ cursor: 'pointer', userSelect: 'none' }}>
-                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Home')}>Home </DropdownItemText>
+                    <DropdownMenu className='bg-dark'  align={{ xl: 'start' }} style={{ cursor: 'pointer', userSelect: 'none' }}>
+                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Home')} key={1}>Home </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('Resume')}>Resume </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('About')}>About </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('Contact')}>Contact </DropdownItemText>

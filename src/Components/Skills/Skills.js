@@ -22,7 +22,7 @@ function Skills() {
     return (
         <div className=' d-flex flex-column text-light'>
             <div className=' d-flex flex-column py-2'>
-                <div className=' fs-5 fw-bold'>
+                <div className=' fs-5 fw-bold text-center text-sm-start'>
                     Language
                 </div>
                 <div className=' py-2 row row-cols-auto justify-content-center justify-content-sm-start'>
@@ -53,7 +53,7 @@ function Skills() {
                 </div>
             </div>
             <div className=' d-flex flex-column py-2'>
-                <div className=' fs-5 fw-bold'>
+                <div className=' fs-5 fw-bold text-center text-sm-start'>
                     Full stack Framework
                 </div>
                 <div className=' py-2 row row-cols-auto justify-content-center justify-content-sm-start'>
@@ -85,7 +85,7 @@ function Skills() {
                 </div>
             </div>
             <div className=' d-flex flex-column py-2'>
-                <div className=' fs-5 fw-bold'>
+                <div className=' fs-5 fw-bold text-center text-sm-start'>
                     CSS Framework
                 </div>
                 <div className=' py-2 row row-cols-auto justify-content-start'>
@@ -100,7 +100,7 @@ function Skills() {
                 </div>
             </div>
             <div className=' d-flex flex-column py-2'>
-                <div className=' fs-5 fw-bold'>
+                <div className=' fs-5 fw-bold text-center text-sm-start'>
                     Database
                 </div>
                 <div className=' py-2 row row-cols-auto justify-content-start'>
