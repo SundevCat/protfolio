@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/protfolio/static/css/main.6d48e75e.css",
-    "main.js": "/protfolio/static/js/main.410041c1.js",
+    "main.js": "/protfolio/static/js/main.3b6b23c0.js",
     "static/js/453.ace21015.chunk.js": "/protfolio/static/js/453.ace21015.chunk.js",
     "static/media/plantoys.png": "/protfolio/static/media/plantoys.b4ea2223cce56c736de0.png",
     "static/media/face web.png": "/protfolio/static/media/face web.f368b12141e58569e701.png",
@@ -10,6 +10,7 @@
     "static/media/jpg": "/protfolio/static/media/6caf62a9929ca120668d0a936c5c3719.35dc1a8433efd46185d7.jpg",
     "static/media/mongodb.png": "/protfolio/static/media/mongodb.f12bff4d5664ea0666f2.png",
     "static/media/pif.png": "/protfolio/static/media/pif.1429d6dec1d9e877f6c8.png",
+    "static/media/php.png": "/protfolio/static/media/php.4990580e9b615aeebb1f.png",
     "static/media/sql.png": "/protfolio/static/media/sql.45f858813115b3a411cc.png",
     "static/media/next.png": "/protfolio/static/media/next.1fddd8b895bd173768a4.png",
     "static/media/laravel.png": "/protfolio/static/media/laravel.f3ad6dc33fb0206ee8c2.png",
@@ -26,11 +27,11 @@
     "static/media/facebook-logo-facebook-icon-transparent-free-png.webp": "/protfolio/static/media/facebook-logo-facebook-icon-transparent-free-png.c188eff362d96fbba0fc.webp",
     "index.html": "/protfolio/index.html",
     "main.6d48e75e.css.map": "/protfolio/static/css/main.6d48e75e.css.map",
-    "main.410041c1.js.map": "/protfolio/static/js/main.410041c1.js.map",
+    "main.3b6b23c0.js.map": "/protfolio/static/js/main.3b6b23c0.js.map",
     "453.ace21015.chunk.js.map": "/protfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d48e75e.css",
-    "static/js/main.410041c1.js"
+    "static/js/main.3b6b23c0.js"
   ]
 }
