@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/protfolio/static/css/main.6d48e75e.css",
+    "main.js": "/protfolio/static/js/main.2532ff00.js",
+    "static/js/453.ace21015.chunk.js": "/protfolio/static/js/453.ace21015.chunk.js",
+    "static/media/plantoys.png": "/protfolio/static/media/plantoys.b4ea2223cce56c736de0.png",
+    "static/media/face web.png": "/protfolio/static/media/face web.f368b12141e58569e701.png",
+    "static/media/NET_Core.png": "/protfolio/static/media/NET_Core.1dc7bdc794b3b87c247a.png",
+    "static/media/postg.png": "/protfolio/static/media/postg.16aa8d15f039a1e4c33a.png",
+    "static/media/jpg": "/protfolio/static/media/6caf62a9929ca120668d0a936c5c3719.35dc1a8433efd46185d7.jpg",
+    "static/media/mongodb.png": "/protfolio/static/media/mongodb.f12bff4d5664ea0666f2.png",
+    "static/media/pif.png": "/protfolio/static/media/pif.1429d6dec1d9e877f6c8.png",
+    "static/media/sql.png": "/protfolio/static/media/sql.45f858813115b3a411cc.png",
+    "static/media/next.png": "/protfolio/static/media/next.1fddd8b895bd173768a4.png",
+    "static/media/laravel.png": "/protfolio/static/media/laravel.f3ad6dc33fb0206ee8c2.png",
+    "static/media/tail.png": "/protfolio/static/media/tail.f236577afa56b0eb10f9.png",
+    "static/media/pos.png": "/protfolio/static/media/pos.11c1210237917a433f65.png",
+    "static/media/ts.png": "/protfolio/static/media/ts.8e08c2165d60d7ca62a9.png",
+    "static/media/c.png": "/protfolio/static/media/c.4dd962566f07b12f62db.png",
+    "static/media/mysql.png": "/protfolio/static/media/mysql.facb8fd0a7d47ab915e8.png",
+    "static/media/Product Information.png": "/protfolio/static/media/Product Information.1336696a1907ab94bd2d.png",
+    "static/media/html (2).png": "/protfolio/static/media/html (2).14eaf58648d1ff1135ea.png",
+    "static/media/js.png": "/protfolio/static/media/js.cfcccd74d98c337bb066.png",
+    "static/media/css.png": "/protfolio/static/media/css.0af86fce566b8c943e14.png",
+    "static/media/angular.png": "/protfolio/static/media/angular.1743b3012ed8bb8fdc9d.png",
+    "static/media/facebook-logo-facebook-icon-transparent-free-png.webp": "/protfolio/static/media/facebook-logo-facebook-icon-transparent-free-png.c188eff362d96fbba0fc.webp",
+    "index.html": "/protfolio/index.html",
+    "main.6d48e75e.css.map": "/protfolio/static/css/main.6d48e75e.css.map",
+    "main.2532ff00.js.map": "/protfolio/static/js/main.2532ff00.js.map",
+    "453.ace21015.chunk.js.map": "/protfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d48e75e.css",
+    "static/js/main.2532ff00.js"
+  ]
+}
