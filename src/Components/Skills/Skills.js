@@ -16,6 +16,7 @@ import tail from '../../assets/tail.png'
 import mongo from '../../assets/mongodb.png'
 import mysql from '../../assets/mysql.png'
 import postg from '../../assets/postg.png'
+import php from '../../assets/php.png'
 import { Image } from 'react-bootstrap'
 
 function Skills() {
@@ -35,12 +36,12 @@ function Skills() {
                         <div className=' text-center small'> CSS </div>
                     </div>
                     <div className='col  d-flex flex-column py-2'>
-                        <Image className='w-8 h-8 mx-auto object-fit-contain' src={js} />
-                        <div className=' text-center small'> JavsScript </div>
-                    </div>
-                    <div className='col  d-flex flex-column py-2'>
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={c} />
                         <div className=' text-center small'> C# </div>
+                    </div>
+                    <div className='col  d-flex flex-column py-2'>
+                        <Image className='w-8 h-8 mx-auto object-fit-contain' src={php} />
+                        <div className=' text-center small'> PHP </div>
                     </div>
                     <div className='col  d-flex flex-column py-2'>
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={ts} />
@@ -49,6 +50,11 @@ function Skills() {
                     <div className='col  d-flex flex-column py-2'>
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={sql} />
                         <div className=' text-center small'> SQL </div>
+                    </div>
+
+                    <div className='col  d-flex flex-column py-2'>
+                        <Image className='w-8 h-8 mx-auto object-fit-contain' src={js} />
+                        <div className=' text-center small'> JavsScript </div>
                     </div>
                 </div>
             </div>
