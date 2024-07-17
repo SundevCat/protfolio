@@ -16,7 +16,7 @@ function App() {
 
 
   useEffect(() => {
-
+    if (!selectedStatus) SetSelecedStatus('Home')
   }, [])
   const setStatus = (status) => {
     SetSelecedStatus(status)
