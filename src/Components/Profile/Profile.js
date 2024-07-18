@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../../assets/6caf62a9929ca120668d0a936c5c3719.jpg'
+import logo from '../../assets/profile.png'
 import { Col, Row } from 'react-bootstrap'
 import { ReactTyped } from 'react-typed'
 function Profile(prop) {
