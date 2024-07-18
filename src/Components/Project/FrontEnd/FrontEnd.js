@@ -4,6 +4,7 @@ import { Col, Image, Row } from 'react-bootstrap'
 import pif from '../../../assets/pif.png'
 import pos from '../../../assets/pos.png'
 import fb from '../../../assets/face web.png'
+import plantoys from '../../../assets/plantoys.png'
 import github from '../../../assets/25231.png'
 import { Link } from 'react-router-dom'
 
@@ -24,6 +25,11 @@ function FrontEnd() {
         des: 'Angular Framework and Bootstrap5.',
         img: pos,
         url: 'https://github.com/SundevCat/MyProjectWeb'
+    }, {
+        name: 'Plantoys',
+        des: 'Website Ecommerce from Plantoys',
+        img: plantoys,
+        url: 'https://th.plantoys.com/'
     }]
     return (
         <>
