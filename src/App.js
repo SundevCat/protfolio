@@ -35,16 +35,14 @@ function App() {
                 <Profile setToggle={setStatus} />
                 <About_me />
                 <Project />
-                <Bar header="Skills">
+                <Bar now={70} header="Skills">
                   <Skills />
                 </Bar>
-                <Bar header="Resume" />
-
+                <Bar now={70} header="Resume" />
                 <Resume />
-                <Bar header="Contact" />
+                <Bar now={70} header="Contact" />
                 <Contact />
-
-                <Bar>
+                <Bar now={50}>
                   <div className=' text-light text-center pb-5 fs-1 fw-light'>
                     "Thanks for Scrolling"
                   </div>

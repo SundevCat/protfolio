@@ -5,6 +5,7 @@ import pif from '../../../assets/pif.png'
 import pos from '../../../assets/pos.png'
 import fb from '../../../assets/face web.png'
 import plantoys from '../../../assets/plantoys.png'
+import port from '../../../assets/port.png'
 import github from '../../../assets/25231.png'
 import { Link } from 'react-router-dom'
 
@@ -12,19 +13,24 @@ function FrontEnd() {
     const [select, setSelece] = useState(0)
     const Details = [{
         name: 'Website PIF',
-        des: 'Laravel blade for website in frontend and backend.  Bootstrap 5 for template.',
+        des: 'Laravel blade +  Bootstrap 5 ',
         img: pif,
         url: 'https://github.com/SundevCat/pro_pif'
     }, {
         name: 'Facebook copy',
-        des: 'React Framework and tailwind.',
+        des: 'React + tailwind.',
         img: fb,
         url: 'https://github.com/SundevCat/react-facebook'
     }, {
         name: 'POS System',
-        des: 'Angular Framework and Bootstrap5.',
+        des: 'Angular + Bootstrap5.',
         img: pos,
         url: 'https://github.com/SundevCat/MyProjectWeb'
+    }, {
+        name: 'Protfolio',
+        des: 'React + Bootstrap 5',
+        img: port,
+        url: 'https://github.com/SundevCat/protfolio'
     }, {
         name: 'Plantoys',
         des: 'Website Ecommerce from Plantoys',

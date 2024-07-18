@@ -52,7 +52,7 @@ function Resume() {
                         </Typography>
                         <Typography component={'span'}>
                             <div className=' small text-warning-emphasis'>2018-2023</div>
-                            <div className=' small'> Bechelor's Degree, Computer Engunerring</div>
+                            <div className=' small'> Bechelor's Degree, Computer Engineering</div>
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
