@@ -81,7 +81,7 @@ function Skills() {
                     </div>
                     <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={express} />
-                        <div className=' text-center small'> Express </div>
+                        <div className=' text-center small'> Express.js </div>
                     </div>
                     <div className='col d-flex flex-column py-2' >
                         <Image className='w-8 h-8 mx-auto object-fit-contain' src={dotnet} />
