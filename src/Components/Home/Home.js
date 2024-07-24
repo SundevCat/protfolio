@@ -13,12 +13,12 @@ function Home(prop) {
             </div>
             <div className=' d-sm-none d-flex p-3 p-sm-5 justify-content-end '>
                 <Dropdown >
-                    <DropdownToggle id="dropdown-custom-components" as={React.forwardRef((({ onClick }, ref) => <div onClick={(e) => onClick(e)} className=' text-light pointer-event' style={{ cursor: 'pointer', userSelect: 'none' }}> <span className="material-symbols-outlined fs-1">
+                    <DropdownToggle id="dropdown-custom-components" as={React.forwardRef((({ onClick }, ref) => <div ref={ref} onClick={(e) => onClick(e)} className=' text-light pointer-event' style={{ cursor: 'pointer', userSelect: 'none' }}> <span className="material-symbols-outlined fs-1">
                         menu
                     </span></div>))}>
                     </DropdownToggle>
                     <DropdownMenu className='bg-dark'  align={{ xl: 'start' }} style={{ cursor: 'pointer', userSelect: 'none' }}>
-                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Home')} key={1}>Home </DropdownItemText>
+                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Home')}>Home </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('Resume')}>Resume </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('About')}>About </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('Contact')}>Contact </DropdownItemText>
