@@ -93,17 +93,37 @@ function Resume() {
                             <div className=' small'>
                                 <ul>
                                     <li>
-                                        Use Figma for website design UX | UI.
+                                        Website Design
                                     </li>
+                                    <ul>
+                                        <li>
+                                            Used Figma for designing website UX/UI
+                                        </li>
+                                    </ul>
                                     <li>
-                                        use Angular and Boostrap5 for Front end.
+                                        Frontend Development
                                     </li>
+                                    <ul>
+                                        <li>
+                                            Utilized Angular and Bootstrap 5 for frontend development
+                                        </li>
+                                    </ul>
                                     <li>
-                                        use C# .NET for back end.
+                                        Backend Development
                                     </li>
+                                    <ul>
+                                        <li>
+                                            Employed C# and .NET for backend development
+                                        </li>
+                                    </ul>
                                     <li>
-                                        use MongoDB for database.
+                                        Database Management
                                     </li>
+                                    <ul>
+                                        <li>
+                                            Used MongoDB for database management
+                                        </li>
+                                    </ul>
                                 </ul>
                             </div>
                         </Typography>
@@ -123,32 +143,60 @@ function Resume() {
                             <div className=' small'>
                                 <ul>
                                     <li>
-                                        Use Shopify for web ecommerce.
+                                        E-Commerce Development
                                     </li>
+                                    <ul>
+                                        <li>
+                                            Developed and managed eCommerce websites using Shopify
+                                        </li>
+                                        <li>
+                                            Designed UX/UI and landing pages for eCommerce
+                                        </li>
+                                    </ul>
                                     <li>
-                                        Design website UX | UI and landing page for Ecommerce.
+                                        Frontend Development
                                     </li>
+                                    <ul>
+                                        <li>
+                                            Utilized Laravel React and Angular for development
+                                        </li>
+                                        <li>
+                                            Employed Bootstrap 5 as a CSS framework to create responsive websites for desktop and mobile
+                                        </li>
+                                    </ul>
                                     <li>
-                                        Use Laravel and React to create website.
+                                        Backend Development
                                     </li>
+                                    <ul>
+                                        <li>
+                                            Developed backend systems using Express.js and C# .NetCore
+                                        </li>
+                                        <li>
+                                            Created RESTful APIs
+                                        </li>
+                                    </ul>
                                     <li>
-                                        Use Boostrap5 for website.
+                                        Database Management
                                     </li>
+                                    <ul>
+                                        <li>
+                                            Oracle and  MySQL databases
+                                        </li>
+                                    </ul>
                                     <li>
-                                        Use NodeJS for backend
+                                        Operations Management
                                     </li>
-                                    <li>
-                                        Query Oracle database to manage stock and website.
-                                    </li>
-                                    <li>
-                                        Manage Product Info.
-                                    </li>
-                                    <li>
-                                        Monitor Live Streaming.
-                                    </li>
-                                    <li>
-                                        Manage CRM system.
-                                    </li>
+                                    <ul>
+                                        <li>
+                                            Managed product stock
+                                        </li>
+                                        <li>
+                                            Monitored live streaming
+                                        </li>
+                                        <li>
+                                            Managed CRM systems
+                                        </li>
+                                    </ul>
                                 </ul>
                             </div>
                         </Typography>

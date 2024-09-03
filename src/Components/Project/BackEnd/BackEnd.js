@@ -4,6 +4,7 @@ import pif from '../../../assets/Product Information.png'
 import pos from '../../../assets/6ecb91e73eab30f51b0b29a880338147.png'
 import fb from '../../../assets/facebook-logo-facebook-icon-transparent-free-png.webp'
 import github from '../../../assets/25231.png'
+import stockapi from '../../../assets/stock.png'
 import { Link } from 'react-router-dom'
 function BackEnd() {
     const [select, setSelece] = useState(0)
@@ -12,6 +13,11 @@ function BackEnd() {
         des: 'Laravel blade for website in frontend and backend.',
         img: pif,
         url: 'https://github.com/SundevCat/pro_pif'
+    }, {
+        name: 'Stock Ecom API',
+        des: 'C# .NetCore to Mysql Database.',
+        img: stockapi,
+        url: 'https://github.com/SundevCat/StockEcomAPI'
     }, {
         name: 'Facebook API',
         des: 'NodeJS and ExpressJS connect to MongoDB Database.',
@@ -32,9 +38,9 @@ function BackEnd() {
                             <Image className=' d-block m-auto w-50 h-50 object-fit-contain hover' rounded src={data.img} />
                             <div className=' text-center py-1 fs-6 fw-bold'>{data.name} </div>
                             <div className=' text-center w-100 small'>{data.des} </div>
-                            <div className=' m-auto w-25 h-25 my-2'>
+                            <div className=' m-auto w-25 h-25 my-2 d-flex justify-content-center'>
                                 <Link to={data.url} target='_blank'>
-                                    <Image className=' d-block m-auto w-50 h-50 object-fit-contain' rounded src={github} />
+                                    <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={github} />
                                 </Link>
                             </div>
                         </div>
