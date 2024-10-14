@@ -30,6 +30,9 @@ function App() {
           </Col>
           <Col md={8} className='my-5 '>
             <Card className=' bg-dark  bg-gradient rounded-5 shadow min-vh-50'>
+              <div className=' px-5 pt-1 text-end text-light small'>
+                Last Update: 14 October 2024
+              </div>
               <Home setToggle={setStatus} />
               {selectedStatus === 'Home' && <>
                 <Profile setToggle={setStatus} />
