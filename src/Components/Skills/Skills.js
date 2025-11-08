@@ -128,6 +128,10 @@ function Skills() {
                         <Image className='w-8 h-8 mx-3 object-fit-contain' src={postg} />
                         <div className=' text-center small'> PostgreSQL </div>
                     </div>
+                    <div className='col d-flex flex-column py-2' >
+                        <Image className='w-16 h-8 mx-3 object-fit-contain' src={mssql} />
+                        <div className=' text-center small'> Microsoft SQL Server </div>
+                    </div>
                 </div>
             </div>
         </div >
