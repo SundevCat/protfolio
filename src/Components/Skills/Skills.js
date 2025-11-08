@@ -18,6 +18,7 @@ import mysql from '../../assets/mysql.png'
 import postg from '../../assets/postg.png'
 import php from '../../assets/php.png'
 import nestjs from '../../assets/NestJS.png'
+import mssql from '../../assets/sql-server.jpg'
 import { Image } from 'react-bootstrap'
 
 function Skills() {
@@ -124,7 +125,7 @@ function Skills() {
                         <div className=' text-center small'> MySQL </div>
                     </div>
                     <div className='col d-flex flex-column py-2' >
-                        <Image className='w-8 h-8 mx-3 object-fit-contain' src={nestjs} />
+                        <Image className='w-8 h-8 mx-3 object-fit-contain' src={postg} />
                         <div className=' text-center small'> PostgreSQL </div>
                     </div>
                 </div>
