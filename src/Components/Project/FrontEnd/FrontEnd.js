@@ -9,10 +9,19 @@ import port from '../../../assets/port.png'
 import github from '../../../assets/25231.png'
 import web from '../../../assets/web.png'
 import stockweb from '../../../assets/stockweb.png'
+import cms_gomoads from '../../../assets/cms_gomoads.png'
 import { Link } from 'react-router-dom'
 
 function FrontEnd() {
     const Details = [{
+        name: 'CMS Gomoads',
+        des: 'Next.js + NestJS',
+        img: cms_gomoads,
+        url1_img: web,
+        url1: 'https://cms.gomoads.com/apps',
+        url2_img: '',
+        url2: ''
+    }, {
         name: 'Website PIF',
         des: 'Laravel blade +  Bootstrap 5 ',
         img: pif,
@@ -57,7 +66,7 @@ function FrontEnd() {
         name: 'Plantoys',
         des: 'shopify Ecommerce',
         img: plantoys,
-        url1_img: github,
+        url1_img: web,
         url1: 'https://th.plantoys.com/',
         url2_img: '',
         url2: ''

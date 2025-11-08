@@ -8,8 +8,8 @@ function Home(prop) {
                 <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Home')}>Home</button>
                 <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Resume')}>Resume</button>
                 <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('About')}>About</button>
-                <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Contact')}>Contact</button>
                 <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Project')}>Project</button>
+                <button className='btn btn-dark shadow rounded-5' onClick={() => prop.setToggle('Contact')}>Contact</button>
             </div>
             <div className=' d-sm-none d-flex p-3 p-sm-5 justify-content-end '>
 
@@ -22,8 +22,8 @@ function Home(prop) {
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('Home')}>Home </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('Resume')}>Resume </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('About')}>About </DropdownItemText>
-                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Contact')}>Contact </DropdownItemText>
                         <DropdownItemText className='text-light' onClick={() => prop.setToggle('Project')}>Project </DropdownItemText>
+                        <DropdownItemText className='text-light' onClick={() => prop.setToggle('Contact')}>Contact </DropdownItemText>
                     </DropdownMenu>
                 </Dropdown>
             </div >

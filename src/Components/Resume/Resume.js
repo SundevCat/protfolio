@@ -33,11 +33,11 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
                         <Typography component={'span'}>
-                            Roi Et Tachnical Collage
+                            Rajamangala University of Technology Isan Khonkean Campus
                         </Typography>
                         <Typography component={'span'}>
-                            <div className=' small text-warning-emphasis'>2016-2017</div>
-                            <div className=' small'> Certificate of Technical Vocation, Technical Computer</div>
+                            <div className=' small text-warning'>2018-2023</div>
+                            <div className=' small'> Bechelor's Degree, Computer Engineering</div>
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -48,11 +48,11 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
                         <Typography component={'span'}>
-                            Rajamangala University of Technology Isan Khonkean Campus
+                            Roi Et Tachnical Collage
                         </Typography>
                         <Typography component={'span'}>
-                            <div className=' small text-warning-emphasis'>2018-2023</div>
-                            <div className=' small'> Bechelor's Degree, Computer Engineering</div>
+                            <div className=' small text-warning'>2016-2017</div>
+                            <div className=' small'> Certificate of Technical Vocation, Technical Computer</div>
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -86,44 +86,44 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
                         <Typography component={'span'}>
-                            Full Stack Intern | MEE HAI GROUP CO., LTD
+                            Software Engineer  |  Gotel Co. Ltd
                         </Typography>
                         <Typography component={'span'}>
-                            <div className=' small text-warning-emphasis'>April 2021 - Auguse 2021</div>
+                            <div className=' small text-warning'>Oct 2024 - Current</div>
                             <div className=' small'>
                                 <ul>
                                     <li>
-                                        Website Design
+                                        Developed and designed a CMS web application using Next.js
                                     </li>
-                                    <ul>
-                                        <li>
-                                            Used Figma for designing website UX/UI
-                                        </li>
-                                    </ul>
                                     <li>
-                                        Frontend Development
+                                        Developed and designed APIs using NestJS.
                                     </li>
-                                    <ul>
-                                        <li>
-                                            Utilized Angular and Bootstrap 5 for frontend development
-                                        </li>
-                                    </ul>
                                     <li>
-                                        Backend Development
+                                        Used n8n automation to facilitate monitoring
                                     </li>
-                                    <ul>
-                                        <li>
-                                            Employed C# and .NET for backend development
-                                        </li>
-                                    </ul>
                                     <li>
-                                        Database Management
+                                        Used RabbitMQ to manage message queues and handle
+                                        system logs.
                                     </li>
-                                    <ul>
-                                        <li>
-                                            Used MongoDB for database management
-                                        </li>
-                                    </ul>
+                                    <li>
+                                        Migrated the microservice legacy system to Node.js.
+                                    </li>
+                                    <li>
+                                        Refactored MSSQL Server stored procedures into a new
+                                        system.
+                                    </li>
+                                    <li>
+                                        Deployed projects on Docker in a Linux environment.
+                                    </li>
+                                    <li>
+                                        Resolved system issues based on user feedback.
+                                    </li>
+                                    <li>
+                                        Created and updated system documentation.
+                                    </li>
+                                    <li>
+                                        Design and solve problems together with the team.
+                                    </li>
                                 </ul>
                             </div>
                         </Typography>
@@ -133,13 +133,14 @@ function Resume() {
                     <TimelineOppositeContent />
                     <TimelineSeparator sx={{ marginLeft: '10px' }}>
                         <TimelineDot color="warning" />
+                        <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
                         <Typography component={'span'}>
                             Web Developer | Plan Creations Co. Ltd
                         </Typography>
                         <Typography component={'span'}>
-                            <div className=' small text-warning-emphasis'>June 2023 - Current</div>
+                            <div className=' small text-warning'>June 2023 - Sep 2024</div>
                             <div className=' small'>
                                 <ul>
                                     <li>
@@ -195,6 +196,56 @@ function Resume() {
                                         </li>
                                         <li>
                                             Managed CRM systems
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent />
+                    <TimelineSeparator sx={{ marginLeft: '10px' }}>
+                        <TimelineDot color="warning" />
+                    </TimelineSeparator>
+                    <TimelineContent className=' text-light'>
+                        <Typography component={'span'}>
+                            Full Stack Intern | MEE HAI GROUP CO., LTD
+                        </Typography>
+                        <Typography component={'span'}>
+                            <div className=' small text-warning'>April 2021 - Auguse 2021</div>
+                            <div className=' small'>
+                                <ul>
+                                    <li>
+                                        Website Design
+                                    </li>
+                                    <ul>
+                                        <li>
+                                            Used Figma for designing website UX/UI
+                                        </li>
+                                    </ul>
+                                    <li>
+                                        Frontend Development
+                                    </li>
+                                    <ul>
+                                        <li>
+                                            Utilized Angular and Bootstrap 5 for frontend development
+                                        </li>
+                                    </ul>
+                                    <li>
+                                        Backend Development
+                                    </li>
+                                    <ul>
+                                        <li>
+                                            Employed C# and .NET for backend development
+                                        </li>
+                                    </ul>
+                                    <li>
+                                        Database Management
+                                    </li>
+                                    <ul>
+                                        <li>
+                                            Used MongoDB for database management
                                         </li>
                                     </ul>
                                 </ul>

@@ -9,7 +9,6 @@ function Bar(prop) {
                 <div className=' text-end text-light py-2'>{prop.header}</div>
                 <ProgressBar variant='Primary' now={prop.now} className=' bg-warning ' style={{ height: '5px' }} />
                 <div className='pt-5'>
-
                     {prop.children}
                 </div>
             </Col>

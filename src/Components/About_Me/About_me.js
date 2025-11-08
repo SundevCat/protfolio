@@ -12,8 +12,8 @@ function About_me() {
                 <Col sm={4} className='text-light px-5 px-sm-0'>
                     <div className=' fs-5 fw-bold text-center text-sm-start'> About Me</div>
                     <div className='mt-2 text-center text-sm-start'>
-                    Hello, I am a Fullstack Developer with over a year of experience working with technologies like React, Angular, Laravel, Next.js, Node.js, Express.js, and others.
-                    My goal is to become an expert in Fullstack Development and create efficient websites.
+                        Hello! Welcome to my website, I’m a <b>Full Stack Developer</b> experienced in React, Angular, Next.js, and Node.js. <br />
+                        I love learning new technologies and using them to create efficient, scalable web solutions.
                     </div>
                 </Col>
             </Row>
